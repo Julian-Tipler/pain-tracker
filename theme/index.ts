@@ -13,24 +13,6 @@ const theme = {
     placeholder: "#9e9e9e", // Replace with your placeholder text color
     backdrop: "#00000070", // Replace with your backdrop color for dialogs and modals
   },
-  fonts: {
-    regular: {
-      fontFamily: "Roboto-Regular", // Replace with your regular font family
-      fontWeight: "normal",
-    },
-    medium: {
-      fontFamily: "Roboto-Medium", // Replace with your medium font family
-      fontWeight: "normal",
-    },
-    light: {
-      fontFamily: "Roboto-Light", // Replace with your light font family
-      fontWeight: "normal",
-    },
-    thin: {
-      fontFamily: "Roboto-Thin", // Replace with your thin font family
-      fontWeight: "normal",
-    },
-  },
 };
 
 export default theme;

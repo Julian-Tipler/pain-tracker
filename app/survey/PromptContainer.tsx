@@ -1,7 +1,6 @@
-import { StyleSheet, Switch, Text, TextInput, View } from "react-native";
-import { Card } from "react-native-paper";
+import { StyleSheet, Switch, Text, View } from "react-native";
 import React from "react";
-import { Answer, Options, Prompt } from "../types/promptTypes";
+import { Answer, Options, Prompt } from "../../types/promptTypes";
 
 export const PromptContainer = ({ prompt }: { prompt: Prompt }) => {
   const [response, setResponse] = React.useState<Options | null>(null);

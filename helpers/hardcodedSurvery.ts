@@ -1,17 +1,11 @@
 export const hardcodedSurvey = {
   id: "mockId",
   name: "mockName",
-  day: [
+  prompts: [
     {
       question: "How was your pain today?",
       answer: {
         type: "scale",
-      },
-    },
-    {
-      question: "Did you take your medication today?",
-      answer: {
-        type: "trueFalse",
       },
     },
     {
@@ -21,6 +15,11 @@ export const hardcodedSurvey = {
         options: ["left-leg, hip, mid-back"],
       },
     },
+    {
+      question: "Did you take your medication today?",
+      answer: {
+        type: "trueFalse",
+      },
+    },
   ],
-  night: [],
 };
